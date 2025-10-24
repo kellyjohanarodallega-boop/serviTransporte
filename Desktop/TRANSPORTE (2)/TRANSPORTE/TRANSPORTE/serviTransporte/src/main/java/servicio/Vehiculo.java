@@ -8,13 +8,13 @@ package servicio;
  *
  * @author hp
  */
-public class Vehiculo {
+public abstract class Vehiculo {
     // Atributos
-    private int id;
-    private String placa;
-    private String marca;
-    private String modelo;
-    private String estado;
+    protected int id;
+    protected String placa;
+    protected String marca;
+    protected String modelo;
+    protected String estado;
 
     // Constructor vacío
     public Vehiculo() {
@@ -69,6 +69,7 @@ public class Vehiculo {
     public void setEstado(String estado) {
         this.estado = estado;
     }
+
 
     // Método para mostrar información del vehículo
     public void mostrarInfo() {

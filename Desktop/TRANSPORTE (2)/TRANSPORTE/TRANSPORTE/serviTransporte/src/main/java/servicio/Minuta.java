@@ -67,4 +67,8 @@ public class Minuta {
         System.out.println("Asunto: " + asunto);
         System.out.println("Nota: " + nota);
     }
+
+    String getObservacion() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
